@@ -1,0 +1,38 @@
+{
+    "end-user":{
+        "/getA":{
+            "param": {},
+            "query": {}
+        },
+        "/getB":{
+            "param": {},
+            "query": {}
+        },
+        "/getFeatures":{
+            "param": {},
+            "query": {}
+        }
+    },
+    "superuser":{
+        "/getA":{
+            "param": {},
+            "query": {}
+        },
+        "/getB":{
+            "param": {},
+            "query": {}
+        },
+        "/getC":{
+            "param": {},
+            "query": {}
+        },
+        "/getD":{
+            "param": {},
+            "query": {}
+        },
+        "/getFeatures":{
+            "param": {},
+            "query": {}
+        }
+    }
+}

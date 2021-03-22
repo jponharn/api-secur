@@ -1,0 +1,30 @@
+{
+  "name": "api-secur",
+  "version": "1.0.0",
+  "description": "Demo for Api security with IAAM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jponharn/api-secur.git"
+  },
+  "author": "NECTEC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jponharn/api-secur/issues"
+  },
+  "homepage": "https://github.com/jponharn/api-secur#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "express-session": "^1.17.1",
+    "https-localhost": "^4.6.4",
+    "node-fetch": "^2.6.1",
+    "oxd-node": "^3.1.4",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  }
+}

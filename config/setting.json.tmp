@@ -1,0 +1,10 @@
+{
+    "op_host": "https://iaamdemo.lsr.nectec.or.th",
+    "prefix_path": "",
+    "gateway_port": "8081",
+    "oxd_setting": {
+        "https_extension": false,
+        "host": "localhost",
+        "port": 8099
+    }
+}
