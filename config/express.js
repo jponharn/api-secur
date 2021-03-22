@@ -88,8 +88,8 @@ module.exports = function() {
     let r_auth = require('../routes')(express.Router());
     let r_auth_acc = require('../routes_ac')(express.Router());
 
-    app.use(`/${setting.prefix_path}`, isAuthorized, r_auth);
-    app.use(`/${setting.prefix_path}`, isAuthorized, isAccess, r_auth_acc);
+    app.use(`${setting.prefix_path}`, isAuthorized, r_auth);
+    app.use(`${setting.prefix_path}`, isAuthorized, isAccess, r_auth_acc);
     app.use(function(req, res, next) {
         res.status(404);
         res.type('txt').send('Not found');

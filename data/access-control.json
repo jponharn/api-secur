@@ -1,36 +1,36 @@
 {
     "end-user":{
-        "/getA":{
+        "/api/getA":{
             "param": {},
             "query": {}
         },
-        "/getB":{
+        "/api/getB":{
             "param": {},
             "query": {}
         },
-        "/getFeatures":{
+        "/api/getFeatures":{
             "param": {},
             "query": {}
         }
     },
     "superuser":{
-        "/getA":{
+        "/api/getA":{
             "param": {},
             "query": {}
         },
-        "/getB":{
+        "/api/getB":{
             "param": {},
             "query": {}
         },
-        "/getC":{
+        "/api/getC":{
             "param": {},
             "query": {}
         },
-        "/getD":{
+        "/api/getD":{
             "param": {},
             "query": {}
         },
-        "/getFeatures":{
+        "/api/getFeatures":{
             "param": {},
             "query": {}
         }
