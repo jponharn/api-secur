@@ -28,7 +28,7 @@
             "param": {},
             "query": {}
         },
-        "/api/creatUser":{
+        "/api/createUser":{
             "param": {},
             "query": {}
         },
