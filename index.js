@@ -3,6 +3,6 @@ const express = require('./config/express');
 const app = express();
 
 
-app.listen(setting.gateway_port);
+app.listen(setting.api_port);
 console.log("Run API            [OK]")
-console.info(`API is running at port:${setting.gateway_port}`);
+console.info(`API is running at port:${setting.api_port}`);
