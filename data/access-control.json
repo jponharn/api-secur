@@ -1,50 +1,42 @@
 {
     "enduser":{
-        "/api/getA":{
-            "param": {},
-            "query": {}
-        },
-        "/api/getB":{
-            "param": {},
-            "query": {}
-        },
         "/api/getFeatures":{
+            "param": {},
+            "query": {}
+        },
+        "/api/getUser":{
             "param": {},
             "query": {}
         }
     },
     "end-user":{
-        "/api/getA":{
-            "param": {},
-            "query": {}
-        },
-        "/api/getB":{
-            "param": {},
-            "query": {}
-        },
         "/api/getFeatures":{
+            "param": {},
+            "query": {}
+        },
+        "/api/getUser":{
             "param": {},
             "query": {}
         }
     },
     "superuser":{
-        "/api/getA":{
-            "param": {},
-            "query": {}
-        },
-        "/api/getB":{
-            "param": {},
-            "query": {}
-        },
-        "/api/getC":{
-            "param": {},
-            "query": {}
-        },
-        "/api/getD":{
-            "param": {},
-            "query": {}
-        },
         "/api/getFeatures":{
+            "param": {},
+            "query": {}
+        },
+        "/api/getUser":{
+            "param": {},
+            "query": {}
+        },
+        "/api/creatUser":{
+            "param": {},
+            "query": {}
+        },
+        "/api/updateUser":{
+            "param": {},
+            "query": {}
+        },
+        "/api/removeUser":{
             "param": {},
             "query": {}
         }
