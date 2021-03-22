@@ -13,6 +13,20 @@
             "query": {}
         }
     },
+    "end-user":{
+        "/api/getA":{
+            "param": {},
+            "query": {}
+        },
+        "/api/getB":{
+            "param": {},
+            "query": {}
+        },
+        "/api/getFeatures":{
+            "param": {},
+            "query": {}
+        }
+    },
     "superuser":{
         "/api/getA":{
             "param": {},
