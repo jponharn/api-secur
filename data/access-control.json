@@ -1,5 +1,5 @@
 {
-    "end-user":{
+    "enduser":{
         "/api/getA":{
             "param": {},
             "query": {}
