@@ -36,9 +36,9 @@ const isAccess = (req, res, next) => {
             }
             else return res.send({"status": "error", "data": "access denied"})
         }
-        else return res.send({"status": "error", "data": "access denied"})
+        else return res.send({"status": "error", "data": "invalid role!"})
     }
-    else return res.send({"status": "error", "data": "access denied"})
+    else return res.send({"status": "error", "data": "empty role!"})
 }
 
 const isAuthorized = (req, res, next) => {
@@ -53,7 +53,7 @@ const isAuthorized = (req, res, next) => {
                     if(newToken.data.access_token){
                         next()
                     }
-                    else return res.send({"status": "error", "data": "access denied"})
+                    else return res.send({"status": "error", "data": "invalid access_token"})
                 })
             }
             else{
@@ -65,7 +65,7 @@ const isAuthorized = (req, res, next) => {
                         if(newToken.data.access_token){
                             next()
                         }
-                        else return res.send({"status": "error", "data": "access denied"})
+                        else return res.send({"status": "error", "data": "invalid access_token"})
                     })
                 }
             }
