@@ -82,7 +82,7 @@ module.exports = function() {
     // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
     app.use(cors())
 
-    app.use(bodyParser.urlencoded({ extended: false }))
+    app.use(bodyParser.urlencoded({ extended: false}))
     app.use(bodyParser.json())
    
     let r_auth = require('../routes')(express.Router());
